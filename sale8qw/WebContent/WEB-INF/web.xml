@@ -4,7 +4,7 @@
  <!--configure the ContextLoaderListener to load the applicationcontext.xml   -->
    <context-param>  
         <param-name>contextConfigLocation</param-name>  
-        <param-value>classpath:applicationcontext.xml</param-value>  
+        <param-value>classpath:applicationcontext.xml,classpath:applicationcontext-job.xml</param-value>  
     </context-param>  
  
     <listener>  
