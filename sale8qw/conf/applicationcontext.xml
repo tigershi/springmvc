@@ -59,7 +59,14 @@
 	<bean id ="personService" class="cn.djel.sale8.service.test.impl.PersonServiceImpl">
        <property name="personMapper" ref="personMapper"></property>	
 	</bean> 
-	
+	<!--the configuration of webservice  -->
+	<bean class="org.springframework.remoting.jaxws.SimpleJaxWsServiceExporter">
+	 <property name="baseAddress" value="http://localhost:8009/"></property>
+	</bean>
+	<bean id="acountServiceEndPoint" class="cn.djel.sale8.controller.webservice.AcountServiceEndPoint">
+	</bean>
+	<bean id="acountService" class="cn.djel.sale8.service.test.impl.AcountServiceImpl">
+	</bean>
 	
 	
 	

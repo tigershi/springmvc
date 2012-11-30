@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 定义别名 -->
+	<typeAliases>
+		<!-- 手动指定别名 -->
+		
+	</typeAliases>
+	<mappers>
+		<mapper resource="cn/djel/sale8/dao/test/PersonMapper.xml"/>
+	</mappers>
+</configuration>

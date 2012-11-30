@@ -9,6 +9,6 @@
 </head>
 <body>
 <c:url value="/person/insert"></c:url>
- <a href="<c:url value="/person/add.do"></c:url>">进入</a>
+ <a href="<c:url value="/person/toadd.do"></c:url>">进入</a>
 </body>
 </html>

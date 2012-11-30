@@ -8,6 +8,6 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans
 <bean id="testJob" class="cn.djel.sale8.service.test.job.TestJob">
 </bean>
 <task:scheduled-tasks>
-<task:scheduled ref="testJob" method="execute" cron="3/11 * * * * ?"/>
+   <task:scheduled ref="testJob" method="execute" cron="3/11 * * * * ?"/>
 </task:scheduled-tasks>
 </beans>

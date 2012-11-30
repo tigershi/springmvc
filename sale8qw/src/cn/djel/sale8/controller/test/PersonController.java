@@ -14,9 +14,9 @@ import cn.djel.sale8.service.test.IPersonService;
 
 @Controller
 public class PersonController {
-	@Resource(name = "personService")
 	private IPersonService personService;
 	
+	@Resource(name = "personService")
 	public void setPersonService(IPersonService personService) {
 		this.personService = personService;
 	}
@@ -24,7 +24,7 @@ public class PersonController {
 	@RequestMapping("/person/toAdd")
     public String toAddPerson(){
     	
-		return"/text/add";
+		return"/test/add";
     }
 	
 	@RequestMapping("/person/add")
